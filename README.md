@@ -3,7 +3,7 @@
 A Lean 4 formalization of
 
 $$
-\tau(G) \le \tfrac{165}{59}\,\nu(G)
+\tau(G) \le \tfrac{165}{59}\nu(G)
 $$
 
 for every finite simple graph $G$, where $\nu(G)$ is the maximum number of edge-disjoint triangles and $\tau(G)$ the minimum number of edges meeting every triangle, following the paper *A Bound Below 2.8 for Tuza's Conjecture*. All packings, transversals, and finite averages are constructed in Lean, and the proof depends on no axioms beyond `propext`, `Classical.choice`, and `Quot.sound`.
